@@ -20,8 +20,8 @@ jobs:
 
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: echo "Token is: $HF_TOKEN"          
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}       
         run: |
+          echo "Token is: $HF_TOKEN" 
           git remote set-url origin https://HarshanaLF:${HF_TOKEN}@huggingface.co/spaces/HarshanaLF/Final_Assignment
           git push -f origin main
