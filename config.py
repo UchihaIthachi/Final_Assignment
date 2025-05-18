@@ -8,6 +8,3 @@ class Settings:
     # ... any other settings
 
 settings = Settings()
-
-
-settings = Settings()
