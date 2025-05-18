@@ -1,0 +1,4 @@
+LLM_PROVIDER=groq
+SUPABASE_URL=https://YOUR.supabase.co
+SUPABASE_SERVICE_KEY=your-supabase-service-key
+SYSTEM_PROMPT_PATH=system_prompt.txt
