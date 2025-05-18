@@ -1,4 +1,4 @@
 LLM_PROVIDER=groq
-SUPABASE_URL=https://YOUR.supabase.co
-SUPABASE_SERVICE_KEY=your-supabase-service-key
+SUPABASE_URL=https://omwpqmtzmybojocamzvn.supabase.co
+SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9td3BxbXR6bXlib2pvY2FtenZuIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0NzU2MjMwOSwiZXhwIjoyMDYzMTM4MzA5fQ.OuvoIHTPW0PR1TWLDvSdSjGrIGM-cbyRZi1uJSH-T6A
 SYSTEM_PROMPT_PATH=system_prompt.txt
