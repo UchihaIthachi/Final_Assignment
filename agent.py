@@ -5,12 +5,9 @@ from retrievers import custom_retriever
 from langgraph.graph import START, StateGraph, MessagesState
 from langgraph.prebuilt import tools_condition, ToolNode
 from langchain_core.messages import SystemMessage, HumanMessage
+from prompt.system_prompt import SYSTEM_PROMPT
 
-# Load system prompt
-with open(settings.system_prompt_path, "r", encoding="utf-8") as f:
-    system_prompt = f.read()
-
-sys_msg = SystemMessage(content=system_prompt)
+sys_msg = SystemMessage(content=SYSTEM_PROMPT)
 
 def build_graph():
     llm = get_llm(settings.llm_provider)
